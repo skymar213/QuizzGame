@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_color"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Point Time"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/bigboss"
+        android:layout_width="180dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:layout_height="180dp"
+        android:src="@drawable/icboss"/>
+    <TextView
+        android:id="@+id/txtQuestion"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="Well Done!! Ready For Boss?"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/txtContinue"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/bgbtnf"
+        android:paddingBottom="10dp"
+        android:text="Continue"
+        android:textColor="#00008B"
+        android:textAllCaps="false"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/txtHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back To Home"
+        android:textColor="@color/white"
+        android:layout_marginTop="70dp"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>
